@@ -11,7 +11,7 @@
 
 <h1 align="center">Calculator<br>
         <h6 align="center">
-          Simple, yet well-designed desktop calculator app for MacOS, Windows, and Linux.
+          Simple, yet well-designed desktop calculator app for Windows.
         </h6>
 </h1>
 
@@ -19,8 +19,8 @@
   <p>
      <img src="https://img.shields.io/badge/Svelte-080808?style=flat&logo=svelte&logoColor=FFFFFF"/>
      <img src="https://img.shields.io/badge/Rust-080808?style=flat&logo=rust&logoColor=white"/>
-     <img src="https://img.shields.io/badge/mac%20os-080808?style=flat&logo=apple&logoColor=white"/>
-     <img src="https://img.shields.io/badge/Linux-080808?style=flat&logo=linux&logoColor=white"/>
+     <!--<img src="https://img.shields.io/badge/mac%20os-080808?style=flat&logo=apple&logoColor=white"/>
+     <img src="https://img.shields.io/badge/Linux-080808?style=flat&logo=linux&logoColor=white"/>-->
      <img src="https://img.shields.io/badge/Windows-080808?style=flat&logo=windows&logoColor=white"/>
   </p>
 </div>
@@ -28,3 +28,7 @@
 <div align="center">
   <img src="/media/Calculator.png"/>
 </div>
+
+<h6 align="center">
+  The app will be also available on MacOS and Linux in the next release.
+</h6>
