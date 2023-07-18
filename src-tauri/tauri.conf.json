@@ -1,0 +1,63 @@
+{
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "calculator",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      },
+      "window": {
+        "all": false,
+        "create": true,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.calculator",
+      "icon": [
+        "icons/50x50.png",
+        "icons/100x100.png",
+        "icons/128x128.png",
+        "icons/150x150.png",
+        "icons/250x250.png",
+        "icons/500x500.png"
+      ]
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "label": "calculator",
+        "fullscreen": false,
+        "resizable": false,
+        "title": "Calculator",
+        "width": 350,
+        "height": 530,
+        "decorations": false,
+        "transparent": true,
+        "center": true
+      }
+    ]
+  }
+}
